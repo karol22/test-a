@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun API Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Dog Image Container -->
+    <div class="animal-container">
+        <h1 class="animal-title">🐶 Random Dog Image</h1>
+        <button class="animal-button" onclick="animalGetDog()">Get Dog</button>
+        <div class="animal-result">
+            <img class="animal-image" src="" alt="Random Dog">
+        </div>
+    </div>
+
+    <!-- Cat Image Container -->
+    <div class="animal-container">
+        <h1 class="animal-title">🐱 Random Cat Image</h1>
+        <button class="animal-button" onclick="animalGetCat()">Get Cat</button>
+        <div class="animal-result">
+            <img class="animal-image" src="" alt="Random Cat">
+        </div>
+    </div>
+
+    <!-- Wikipedia Random Article Container -->
+    <div class="wiki-container">
+        <h1 class="wiki-title">📖 Random Wikipedia Article</h1>
+        <button class="wiki-button" onclick="wikiGetArticle()">Get Article</button>
+        <div class="wiki-result">
+            <h2 class="wiki-article-title"></h2>
+            <p class="wiki-article-summary"></p>
+            <a class="wiki-article-link" href="#" target="_blank">Read Full Article</a>
+        </div>
+    </div>
+
+    <!-- Random Emoji Container -->
+    <div class="emoji-container">
+        <h1 class="emoji-title">😀 Random Emoji</h1>
+        <button class="emoji-button" onclick="emojiGetEmoji()">Get Emoji</button>
+        <div class="emoji-result">😃</div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

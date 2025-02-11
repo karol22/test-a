@@ -1,0 +1,38 @@
+/* General Styling for All Containers */
+.animal-container, .wiki-container, .emoji-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.animal-title, .wiki-title, .emoji-title { margin-bottom: 10px; }
+
+.animal-button, .wiki-button, .emoji-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffcc00;
+    color: black;
+    border-radius: 5px;
+}
+
+.animal-button:hover, .wiki-button:hover, .emoji-button:hover { background-color: #e6b800; }
+
+.animal-result, .wiki-result, .emoji-result { margin-top: 20px; }
+
+.animal-image { width: 300px; height: auto; margin-top: 10px; border-radius: 10px; }
+
+.wiki-article-title { font-size: 18px; font-weight: bold; }
+.wiki-article-summary { font-size: 14px; margin-top: 10px; }
+.wiki-article-link { font-size: 16px; color: blue; text-decoration: none; }
+.wiki-article-link:hover { text-decoration: underline; }
+
+.emoji-result { font-size: 50px; margin-top: 10px; }
